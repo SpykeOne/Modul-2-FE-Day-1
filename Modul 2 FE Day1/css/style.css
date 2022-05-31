@@ -1,0 +1,82 @@
+/* gambar kiri   width: 300px;
+product name   font-size: 36px;
+product price   font-size: 18px;
+product desc   font-size: 14px;
+product size    font-size: 12px;
+Medium font-size:24px
+product material 12px
+add to cart padding 16px
+ini button kalo dihover jd putih */
+
+
+.gambarKecil{
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.gambarKecil img{
+    width: 300px;
+}
+
+.textTengah{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.warna{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.item{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lorem{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 350px;
+    text-align: justify;
+}
+
+.size{
+    font-size: 12px;
+}
+
+.medium{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.genderMaterial{
+    font-size: 12px;
+    padding-left: 300px;
+    text-align: right;
+}
+
+.buttonCart{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.buttonCart:hover{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.gambarBesar{
+    display: inline-block;
+}
